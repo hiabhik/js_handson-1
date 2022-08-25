@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>JavaScript Handon-1</h3>
+<h4>Q1.Add two Numbers</h4>
+ 
+<pre>
+    const AddTwoNumbers = (a,b) => {
+        return a+b;
+    };
+</pre>
+<h4>Q2.Find if the conditions are obeyed or not?</h4>
+<pre>
+    const Is_Valid = (a,b) => {
+    if (a<10 && a>b)
+    {
+      return true;
+    }
+    else
+    {
+      
+      return false;
+    }
+    
+      
+    
+};
+
+</pre>
+<h4>Q3.Check the conditons</h4>
+<pre>
+    const Check = (A, B) => 
+{
+    if (A%10==0 && B%10==0)
+    {
+      return true;
+    }
+    else if(A%10!=0 && B%10!=0){
+      return false;
+    }
+
+   else if(A%10!=0 || B%10!=0)
+   {
+     return true;
+   }
+
+};
+</pre>
+
+
+
+<h4>Q4.Find the last digit of a 4 digit number</h4>
+<pre>
+    const Last_Digit = (n) => {
+    var required=n%10;
+     
+     return required;
+     
+  };</pre>
+
+
+
+  <h4>Q5.Find the remainder</h4>
+  <pre>
+    const Find_the_remainder = (a,b) => {
+        let result = b%a;
+            return result;
+    };
+  </pre>
+
+  <h4>Q6.Multipy two Numbers</h4>
+  <pre>
+    const Multiply_two_number = (a,b) => {
+        var mul=a*b;
+        return mul;
+    };
+  </pre>
+
+  <h4>Q7.Marks Calculator</h4>
+  <pre>
+    const Sum = (A, B, C) => 
+{
+ let total=A+B+C;
+ return total;
+};
+
+const Average = (A, B, C) => 
+{
+  let ave=(A+B+C)/3;
+  return ave;
+};
+  </pre>
+
+  <h4>Q8.Find the first digit of a 4 digit number</h4>
+  <pre>
+    const First_Digit = (n) => {
+  
+        var required=n/1000;
+         var res=Math.floor(required);
+         return res;
+      };
+  </pre>
+
+</body>
+</html>
